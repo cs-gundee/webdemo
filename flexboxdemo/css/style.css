@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    padding: 1rem;
+    background: #131716;
+    color: #f9f9f9;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a h3 {
+    color: #f9f9f9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #f9f9f9;
+    padding: 0.45rem 0.75rem;
+    margin: 0 0.5rem;
+}
+
+nav ul li a:hover {
+    background: #018992;
+    /* color: ; */
+}
+
+header {
+    background: url(../img/mountain.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+header .header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+    color: #f9f9f9;
+    text-align: center;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+header .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+header .header-content p {
+    font-size: 1.2rem;
+}
+
+#stream {
+    background: #f5f4f5;
+    color: #060605;
+    padding: 1rem 2rem;
+}
+
+#stream .stream-text p {
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+#stream-img {
+    background: url(../img/river.jpg) no-repeat center center/cover;
+    min-height: 300px;
+    /* max-height: 400px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f5f4f5;
+}
+
+#stream-img button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    background: rgba(19, 23, 22, 0.5);
+    color: #f9f9f9;
+    border: none;
+}
+
+#stream-img button:hover {
+    background: #018992;
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    background: #131716;
+    color: #f9f9f9;
+}
